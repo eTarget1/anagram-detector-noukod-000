@@ -17,3 +17,9 @@ class Anagram
   end
 
 end
+
+listen = Anagram.new("listen")
+listen.match(%w(enlists google inlets banana))
+
+developer = Anagram.new("developer")
+developer.match(%w(redevelop developed reveled eloped delve))
