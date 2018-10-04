@@ -6,5 +6,12 @@ class Anagram
     @word = word
   end
 
-  
+  def match(array)
+    array = []
+    array.select do |word|
+      
+    
+  end
+
+
 end
